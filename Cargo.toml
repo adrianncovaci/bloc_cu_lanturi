@@ -1,0 +1,18 @@
+[package]
+name = "bloc_cu_lanturi"
+version = "0.1.0"
+authors = ["Adrian Covaci <adrianmihaicovaci@gmail.com>"]
+edition = "2018"
+
+[lib]
+name = "bloc_cu_lanturi_lib"
+path = "src/lib.rs"
+
+[[bin]]
+name = "bloc_cu_lanturi"
+path = "src/main.rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+blake2 = "0.8"
